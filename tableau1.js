@@ -91,9 +91,9 @@ class tableau1 extends Phaser.Scene {
         this.biche.visible=false
         this.biche.alpha=0
 
-        this.cannard = this.add.image(700, 400, 'canard').setOrigin(0, 0);
-        this.cannard.visible=false
-        this.cannard.alpha=0
+        this.canard = this.add.image(700, 400, 'canard').setOrigin(0, 0);
+        this.canard.visible=false
+        this.canard.alpha=0
 
         this.ecureuil = this.add.image(1600, 800, 'ecureuil').setOrigin(0, 0);
         this.ecureuil .visible=false
